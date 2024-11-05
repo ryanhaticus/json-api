@@ -13,7 +13,11 @@ JSON:API is designed to minimize both the number of requests and the amount of
 data transmitted between clients and servers. This efficiency is achieved
 without compromising readability, flexibility, or discoverability.
 
-For additional needs of HTTP APIs, like authentication, documentation, file uploads, and more, JSON:API can and should be combined with additional standards such as [OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc6749) for authorization and [Open API](https://spec.openapis.org/oas/latest.html) for documentation. It is allowed for a server supporting JSON:API to also support other API standards on the same or other endpoints, such as [OData](https://www.odata.org/) or [GraphQL](https://graphql.org/).
+JSON:API requires use of the JSON:API media type
+ ([`application/vnd.api+json`](http://www.iana.org/assignments/media-types/application/vnd.api+json))
+ for exchanging data.
+
+> For additional needs of HTTP APIs, like authentication, documentation, file uploads, and more, JSON:API can and should be combined with additional standards such as [OAuth 2.0](https://datatracker.ietf.org/doc/html/rfc6749) for authorization and [Open API](https://spec.openapis.org/oas/latest.html) for documentation. It is allowed for a server supporting JSON:API to also support other API standards on the same or other endpoints, such as [OData](https://www.odata.org/) or [GraphQL](https://graphql.org/).
 
 JSON:API requires use of the JSON:API media type
 ([`application/vnd.api+json`](http://www.iana.org/assignments/media-types/application/vnd.api+json))
