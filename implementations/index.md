@@ -68,6 +68,7 @@ isomorphic ActiveRecord clone that issues JSON:API requests instead of SQL and i
 * [drupal-jsonapi-params](https://github.com/d34dman/drupal-jsonapi-params) A library for building query parameters when connecting with Drupal CMS's JSON:API.
 * [EntityStore.TS](https://github.com/dipscope/EntityStore.TS) - ORM like abstraction layer for TypeScript which includes extensible [provider](https://github.com/dipscope/JsonApiEntityProvider.TS) for accessing JSON:API servers.
 * [@tsmetadata/json-api](https://github.com/tsmetadata/json-api) - Standardized set of JSON:API metadata decorators.
+* [@tsmetadata/json-api-orm](https://github.com/tsmetadata/json-api-orm) - NoSQL object-relational mapping for JSON:API resource objects decorated with `@tsmetadata/json-api`.
 
 ### <a href="#client-libraries-ios" id="client-libraries-ios" class="headerlink"></a> iOS
 
